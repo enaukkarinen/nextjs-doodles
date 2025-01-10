@@ -9,7 +9,6 @@
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
 	"dependencies": {
-		"@nextui-org/use-aria-link": "2.2.4",
 		"@nextui-org/button": "2.2.8",
 		"@nextui-org/code": "2.2.5",
 		"@nextui-org/input": "2.4.7",
@@ -21,11 +20,13 @@
 		"@nextui-org/switch": "2.2.7",
 		"@nextui-org/system": "2.4.5",
 		"@nextui-org/theme": "2.4.4",
+		"@nextui-org/use-aria-link": "2.2.4",
 		"@react-aria/ssr": "3.9.7",
 		"@react-aria/visually-hidden": "3.8.18",
 		"clsx": "2.1.1",
 		"framer-motion": "11.13.1",
 		"intl-messageformat": "^10.5.0",
+		"mapbox-gl": "^3.9.2",
 		"next": "15.0.4",
 		"next-themes": "^0.4.4",
 		"react": "18.3.1",
