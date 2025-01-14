@@ -1,9 +1,6 @@
-import { title } from "@/components/primitives";
+import "@/app/about/page.css";
 
+import { Map } from "@/components/map/map";
 export default function AboutPage() {
-  return (
-    <div>
-      <h1 className={title()}>About</h1>
-    </div>
-  );
+  return <Map id="my-map"></Map>;
 }
